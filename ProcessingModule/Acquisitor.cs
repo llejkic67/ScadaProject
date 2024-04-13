@@ -56,7 +56,7 @@ namespace ProcessingModule
         /// Acquisitor thread logic.
         /// </summary>
 		private void Acquisition_DoWork()
-		{
+        {
             List<IConfigItem> config_items = this.configuration.GetConfigurationItems();
 
             while (true)
